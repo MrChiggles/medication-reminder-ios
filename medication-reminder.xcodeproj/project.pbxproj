@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		4B5284162C3FCF41813EFE74 /* Pods_medication_reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99A76BCD6251483082C59DD /* Pods_medication_reminder.framework */; };
 		5B485DE01E7C753D0013B925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B485DDF1E7C753D0013B925 /* AppDelegate.swift */; };
-		5B485DE21E7C753D0013B925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B485DE11E7C753D0013B925 /* ViewController.swift */; };
 		5B485DE51E7C753D0013B925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B485DE31E7C753D0013B925 /* Main.storyboard */; };
 		5B485DE71E7C753D0013B925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B485DE61E7C753D0013B925 /* Assets.xcassets */; };
 		5B485DEA1E7C753D0013B925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B485DE81E7C753D0013B925 /* LaunchScreen.storyboard */; };
+		DE1A79D01F592909008E6B14 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79CF1F592909008E6B14 /* TimerViewController.swift */; };
+		DE1A79D21F592916008E6B14 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79D11F592916008E6B14 /* ScheduleViewController.swift */; };
+		DE1A79D41F5929C0008E6B14 /* UIBorderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79D31F5929C0008E6B14 /* UIBorderImageView.swift */; };
+		DE1A79DD1F5AB099008E6B14 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79DC1F5AB099008E6B14 /* ScheduleModel.swift */; };
+		DE1A79DF1F5AB2F8008E6B14 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79DE1F5AB2F8008E6B14 /* AppSettings.swift */; };
+		DE1A79E11F5ABD99008E6B14 /* ScheduleRestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79E01F5ABD99008E6B14 /* ScheduleRestService.swift */; };
+		DE1A79E31F5B03B2008E6B14 /* UIScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79E21F5B03B2008E6B14 /* UIScheduleTableViewCell.swift */; };
+		DE1A79E51F5B21F5008E6B14 /* UIBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79E41F5B21F5008E6B14 /* UIBorderView.swift */; };
+		DE1A79E81F5B22CB008E6B14 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79E71F5B22CB008E6B14 /* UIViewExtensions.swift */; };
+		DE1A79EA1F5BD6B1008E6B14 /* CALayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79E91F5BD6B1008E6B14 /* CALayerExtensions.swift */; };
+		DE1A79EE1F5C3BB0008E6B14 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE1A79ED1F5C3BB0008E6B14 /* alarm.mp3 */; };
+		DE1A79F11F5C47F6008E6B14 /* UITabBarController_Themed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A79F01F5C47F6008E6B14 /* UITabBarController_Themed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B485DDC1E7C753D0013B925 /* medication-reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "medication-reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B485DDF1E7C753D0013B925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B485DE11E7C753D0013B925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B485DE41E7C753D0013B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B485DE61E7C753D0013B925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B485DE91E7C753D0013B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B485DEB1E7C753D0013B925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99A76BCD6251483082C59DD /* Pods_medication_reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medication_reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A79CF1F592909008E6B14 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		DE1A79D11F592916008E6B14 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		DE1A79D31F5929C0008E6B14 /* UIBorderImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBorderImageView.swift; sourceTree = "<group>"; };
+		DE1A79DC1F5AB099008E6B14 /* ScheduleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		DE1A79DE1F5AB2F8008E6B14 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		DE1A79E01F5ABD99008E6B14 /* ScheduleRestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleRestService.swift; sourceTree = "<group>"; };
+		DE1A79E21F5B03B2008E6B14 /* UIScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		DE1A79E41F5B21F5008E6B14 /* UIBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBorderView.swift; sourceTree = "<group>"; };
+		DE1A79E71F5B22CB008E6B14 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		DE1A79E91F5BD6B1008E6B14 /* CALayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtensions.swift; sourceTree = "<group>"; };
+		DE1A79ED1F5C3BB0008E6B14 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		DE1A79F01F5C47F6008E6B14 /* UITabBarController_Themed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarController_Themed.swift; sourceTree = "<group>"; };
 		F2C37ACF78442DAD71F24594 /* Pods-medication-reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medication-reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-medication-reminder/Pods-medication-reminder.release.xcconfig"; sourceTree = "<group>"; };
 		FA4E7FE19B323FB4F24F169D /* Pods-medication-reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medication-reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medication-reminder/Pods-medication-reminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,12 +83,18 @@
 		5B485DDE1E7C753D0013B925 /* medication-reminder */ = {
 			isa = PBXGroup;
 			children = (
+				DE1A79EF1F5C3BB9008E6B14 /* audio */,
+				DE1A79E61F5B22B6008E6B14 /* Extensions */,
+				DE1A79D51F592FE7008E6B14 /* Service */,
+				DE1A79CC1F592880008E6B14 /* Controller */,
+				DE1A79CB1F59286C008E6B14 /* View */,
+				DE1A79C91F59284F008E6B14 /* Model */,
 				5B485DDF1E7C753D0013B925 /* AppDelegate.swift */,
-				5B485DE11E7C753D0013B925 /* ViewController.swift */,
 				5B485DE31E7C753D0013B925 /* Main.storyboard */,
 				5B485DE61E7C753D0013B925 /* Assets.xcassets */,
 				5B485DE81E7C753D0013B925 /* LaunchScreen.storyboard */,
 				5B485DEB1E7C753D0013B925 /* Info.plist */,
+				DE1A79DE1F5AB2F8008E6B14 /* AppSettings.swift */,
 			);
 			path = "medication-reminder";
 			sourceTree = "<group>";
@@ -86,6 +114,59 @@
 				D99A76BCD6251483082C59DD /* Pods_medication_reminder.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE1A79C91F59284F008E6B14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A79DC1F5AB099008E6B14 /* ScheduleModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE1A79CB1F59286C008E6B14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A79D31F5929C0008E6B14 /* UIBorderImageView.swift */,
+				DE1A79E21F5B03B2008E6B14 /* UIScheduleTableViewCell.swift */,
+				DE1A79E41F5B21F5008E6B14 /* UIBorderView.swift */,
+				DE1A79F01F5C47F6008E6B14 /* UITabBarController_Themed.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE1A79CC1F592880008E6B14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A79CF1F592909008E6B14 /* TimerViewController.swift */,
+				DE1A79D11F592916008E6B14 /* ScheduleViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE1A79D51F592FE7008E6B14 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A79E01F5ABD99008E6B14 /* ScheduleRestService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		DE1A79E61F5B22B6008E6B14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A79E71F5B22CB008E6B14 /* UIViewExtensions.swift */,
+				DE1A79E91F5BD6B1008E6B14 /* CALayerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DE1A79EF1F5C3BB9008E6B14 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A79ED1F5C3BB0008E6B14 /* alarm.mp3 */,
+			);
+			name = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1A79EE1F5C3BB0008E6B14 /* alarm.mp3 in Resources */,
 				5B485DEA1E7C753D0013B925 /* LaunchScreen.storyboard in Resources */,
 				5B485DE71E7C753D0013B925 /* Assets.xcassets in Resources */,
 				5B485DE51E7C753D0013B925 /* Main.storyboard in Resources */,
@@ -211,8 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B485DE21E7C753D0013B925 /* ViewController.swift in Sources */,
+				DE1A79E11F5ABD99008E6B14 /* ScheduleRestService.swift in Sources */,
+				DE1A79F11F5C47F6008E6B14 /* UITabBarController_Themed.swift in Sources */,
+				DE1A79DD1F5AB099008E6B14 /* ScheduleModel.swift in Sources */,
+				DE1A79D41F5929C0008E6B14 /* UIBorderImageView.swift in Sources */,
+				DE1A79DF1F5AB2F8008E6B14 /* AppSettings.swift in Sources */,
+				DE1A79D21F592916008E6B14 /* ScheduleViewController.swift in Sources */,
+				DE1A79D01F592909008E6B14 /* TimerViewController.swift in Sources */,
+				DE1A79E81F5B22CB008E6B14 /* UIViewExtensions.swift in Sources */,
+				DE1A79EA1F5BD6B1008E6B14 /* CALayerExtensions.swift in Sources */,
+				DE1A79E31F5B03B2008E6B14 /* UIScheduleTableViewCell.swift in Sources */,
 				5B485DE01E7C753D0013B925 /* AppDelegate.swift in Sources */,
+				DE1A79E51F5B21F5008E6B14 /* UIBorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +468,7 @@
 				5B485DF01E7C753D0013B925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
